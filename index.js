@@ -45,7 +45,7 @@ var botaoAdicionar = document.getElementById("botaoAdicionar")
 botaoAdicionar.addEventListener("click",function(){
     window.location.href = 'adicionar.html';
 })
-
+//
 function atualizarTela(id){
     listaPessoas = listaPessoas.filter( p => p.id != id)
     var tabelaPessoas = document.getElementById("tabelaPessoas")
